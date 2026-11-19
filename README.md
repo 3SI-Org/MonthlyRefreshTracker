@@ -2,6 +2,8 @@
 
 The Monthly Refresh Tracker, rebuilt as an **Atlassian Forge app** that lives inside Jira (Apps menu → **CUSP Refresh Tracker**). It is a port of the Claude dashboard “Monthly Refresh Tracker (Tom’s copy)” as of 2026‑11‑19: same page code, same look, same rules, with Jira and storage wired up the Forge way.
 
+<img width="1920" height="874" alt="image" src="https://github.com/user-attachments/assets/b8ff6643-3ed1-4487-adae-982248483820" />
+
 What you get in Jira:
 
 - **All states view**: map of the client states (eastern US) plus the schedule timeline, with CS leads, the Georgia standard / Risk & Audit fork, retry dots for reruns, skipped months, upcoming states and leads.
