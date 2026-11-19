@@ -1,0 +1,27 @@
+# CUSP Monthly Refresh Tracker: a full-page Jira app (Apps menu → "CUSP Refresh Tracker").
+# `forge register` fills in app.id the first time; leave the placeholder until then.
+modules:
+  jira:globalPage:
+    - key: cusp-refresh-tracker
+      title: CUSP Refresh Tracker
+      resource: main
+      resolver:
+        function: resolver
+  function:
+    - key: resolver
+      handler: index.handler
+resources:
+  - key: main
+    path: static/tracker/build
+permissions:
+  scopes:
+    - read:jira-work      # search tickets, comments, attachments (as the signed-in user)
+    - read:jira-user      # assignee names, and group membership for EDITOR_GROUP
+    - storage:app         # pinned notes, skips, CS leads, schedule, upcoming states
+  content:
+    styles:
+      - unsafe-inline     # the page sets inline styles (legend swatches, chart colors)
+app:
+  runtime:
+    name: nodejs22.x
+  id: ari:cloud:ecosystem::app/00000000-0000-0000-0000-000000000000

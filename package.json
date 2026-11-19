@@ -1,0 +1,17 @@
+{
+  "name": "cusp-refresh-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CUSP Monthly Refresh Tracker as an Atlassian Forge app (Jira global page).",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "npm --prefix static/tracker run build",
+    "lint": "forge lint",
+    "test": "npx --prefix static/tracker esbuild test/unit.test.mjs --bundle --platform=node --format=esm --outfile=test/.unit.bundle.mjs --log-level=warning && node test/.unit.bundle.mjs"
+  },
+  "dependencies": {
+    "@forge/api": "^8.5.0",
+    "@forge/kvs": "^2.1.2",
+    "@forge/resolver": "^2.0.2"
+  }
+}

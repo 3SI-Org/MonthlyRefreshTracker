@@ -1,0 +1,8 @@
+node_modules/
+static/tracker/node_modules/
+static/tracker/build/
+static/tracker/build-mock/
+static/tracker/test/fixtures/tickets.json
+static/tracker/test/fixtures/reportcards.json
+test/.unit.bundle.mjs
+.env

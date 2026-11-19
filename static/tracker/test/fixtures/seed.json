@@ -1,0 +1,110 @@
+{
+  "exportedFrom": "Claude dashboard “Monthly Refresh Tracker (Tom’s copy)”, 2026-11-19",
+  "documents": {
+    "data/refresh/cs_leads/DC": {
+      "cs_lead": "Laura Wallace",
+      "state": "DC"
+    },
+    "data/refresh/cs_leads/GA": {
+      "cs_lead": "Grace Dong",
+      "state": "GA"
+    },
+    "data/refresh/cs_leads/IL": {
+      "cs_lead": "Erin Moran",
+      "state": "IL"
+    },
+    "data/refresh/cs_leads/MA": {
+      "cs_lead": "Grace Dong",
+      "state": "MA"
+    },
+    "data/refresh/cs_leads/MD": {
+      "cs_lead": "Laura Wallace",
+      "state": "MD"
+    },
+    "data/refresh/notes/DC": {
+      "at": "2026-11-18T20:30:23.834Z",
+      "state": "DC",
+      "text": "Delayed due to disaster recovery steps still being completed in DEV Databricks."
+    },
+    "data/refresh/roster/AR": {
+      "name": "Arkansas",
+      "note": "Prospective state",
+      "order": 3,
+      "short": "Lead",
+      "stage": "Lead",
+      "state": "AR"
+    },
+    "data/refresh/roster/CT": {
+      "name": "Connecticut",
+      "note": "Prospective state",
+      "order": 2,
+      "short": "Lead",
+      "stage": "Lead",
+      "state": "CT"
+    },
+    "data/refresh/roster/MD": {
+      "name": "Maryland",
+      "note": "Monthly refreshes start February 2027",
+      "order": 1,
+      "short": "Starts Feb",
+      "stage": "Starting",
+      "state": "MD"
+    },
+    "data/refresh/schedule/ALL_dash": {
+      "day": 24,
+      "state": "ALL",
+      "step": "dash"
+    },
+    "data/refresh/schedule/ALL_drc": {
+      "day": 27,
+      "state": "ALL",
+      "step": "drc"
+    },
+    "data/refresh/schedule/ALL_qa": {
+      "day": 22,
+      "state": "ALL",
+      "step": "qa"
+    },
+    "data/refresh/schedule/ALL_run": {
+      "day": 13,
+      "state": "ALL",
+      "step": "run"
+    },
+    "data/refresh/schedule/ALL_snap": {
+      "day": 26,
+      "state": "ALL",
+      "step": "snap"
+    },
+    "data/refresh/schedule/ALL_source": {
+      "day": 11,
+      "state": "ALL",
+      "step": "source"
+    },
+    "data/refresh/schedule/ALL_upload": {
+      "day": 30,
+      "state": "ALL",
+      "step": "upload"
+    },
+    "data/refresh/schedule/GA_run": {
+      "day": 20,
+      "state": "GA",
+      "step": "run"
+    },
+    "data/refresh/schedule/IL_run": {
+      "day": 15,
+      "state": "IL",
+      "step": "run"
+    },
+    "data/refresh/schedule/MA_run": {
+      "day": 20,
+      "state": "MA",
+      "step": "run"
+    },
+    "data/refresh/skips/GA_2026-11": {
+      "at": "2026-11-18T20:26:05.845Z",
+      "reason": "No data provided - upstream issues. Cleared to skip the refresh. DRC managed by leadership.",
+      "release": "2026 November Monthly Data Refresh",
+      "state": "GA"
+    }
+  }
+}
